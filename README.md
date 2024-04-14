@@ -1,5 +1,4 @@
 # Ishan Jain's Portfolio
-![Uploading portfolioweb.png…]()
 
 Welcome to my portfolio website! Here you can explore my work, projects, and learn more about me.
 
