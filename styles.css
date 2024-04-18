@@ -43,9 +43,11 @@ nav ul li a {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 40px 0;
-    
+    margin: 40px 80px;
+    margin-right: auto;
+
 }
+
 /*-----home-----*/
 .firstSection>div {
     width: 30%;
@@ -86,19 +88,36 @@ nav ul li a {
     text-align: center;
     padding: 80px 0;
 }
+
 /*-----about section-----*/
 #about {
     padding: 80px 0;
     color: #ababab;
 }
 
-.container {
-    padding: 10px 10%;
+.container-a {
+    margin-right: 130px;
+    margin-left: 250px;
+    padding: 0;
 }
 
+.container {
+    max-width: 1000px;
+    margin-right: 130px;
+    margin-left: 250px;
+    padding: 0;
+}
+
+/*
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+*/
 .row {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
@@ -108,6 +127,7 @@ nav ul li a {
 
 .about-col-2 {
     flex-basis: 60%;
+    margin-left: 40px;
 }
 
 .about-me {
@@ -129,46 +149,6 @@ p {
     margin-inline-end: 0px;
     unicode-bidi: isolate;
 }
-
-/*-----footer-----*/
-footer {
-    background-color: rgb(16, 16, 66);
-    height: 120px;
-}
-
-.footer {
-    display: flex;
-    padding: 23px 122px;
-    justify-content: space-evenly;
-}
-
-.footer-first {
-    font-weight: bold;
-}
-
-.footer-third ul li {
-    display: inline;
-    padding: 80px;
-}
-.footer-third ul li a{
-    text-decoration: none;
-    color: white;
-} 
-
-.footer ul {
-    color: white;
-    text-decoration: none;
-
-    list-style: none;
-    margin: 0 23px;
-}
-
-.footer-rights {
-    text-align: center;
-    color: gray;
-    padding: 12px 0;
-}
-
 
 /*-----tabs under about-----*/
 .tab-titles {
@@ -203,7 +183,7 @@ footer {
     display: none;
 }
 
-.tab-contents ul li{
+.tab-contents ul li {
     list-style: none;
     margin: 10px 0;
 }
@@ -222,22 +202,23 @@ footer {
 .user-image {
     width: 80%;
 }
-/*--------projects------------*/
+
+/*-------Projects-------*/
 #projects {
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     margin: 80px 0;
-    
+
 }
 
-.container {
-    max-width: 960px;
-    margin: 0 auto;
+.container-p {
+    max-width: 1000px;
+    margin: 0 438px;
     padding: 0 20px;
 }
 
 .section-title {
     text-align: justify;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     font-size: 60px;
     color: #ffffff;
 }
@@ -252,7 +233,7 @@ footer {
 }
 
 .project-description {
-    
+
     line-height: 1.6;
     color: #bbb;
     margin-bottom: 20px;
@@ -267,9 +248,112 @@ footer {
     border-radius: 5px;
     transition: background-color 0.3s;
 }
-a#both{
+
+#both {
     margin-left: 32px;
 }
+
 .project-link:hover {
     background-color: #0056b3;
+}
+
+/*------contact------*/
+
+#contact {
+    color: #fff;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 100px;
+}
+
+.container-contact {
+    padding: 0 10%;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.container-c .section-title {
+    text-align:center;
+    margin-left: auto;
+    font-size: 60px;
+    color: #ffffff;
+}
+
+.contact-info {
+    margin: 0px 20px;
+    padding: 0 160px;
+}
+
+.contact-form label {
+    margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px 40px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact-form input {
+    width: 100%;
+    display: block;
+}
+
+.contact-form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+/*-----footer-----*/
+footer {
+    background-color: rgb(16, 16, 66);
+    height: 120px;
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+.footer-first {
+    font-weight: bold;
+}
+
+.footer-third ul li {
+    display: inline;
+    padding: 80px;
+}
+
+.footer-third ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer ul {
+    color: white;
+    text-decoration: none;
+
+    list-style: none;
+    margin: 0 23px;
+}
+
+.footer-rights {
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
 }
