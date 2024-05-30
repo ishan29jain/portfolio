@@ -14,6 +14,6 @@ function opentab(tabname) {
 
 
 var typed = new Typed('#element', {
-    strings: ['Web Developer.', 'Graphic Designer.', 'Video Editor.'],
+    strings: ['Web Developer.', 'UI/UX Designer.'],
     typeSpeed: 100,
 });
