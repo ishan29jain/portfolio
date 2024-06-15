@@ -13,6 +13,7 @@ body {
 /*-----navbar-----*/
 nav {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     height: 80px;
@@ -41,6 +42,7 @@ nav ul li a {
 
 .firstSection {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     margin: 40px 80px;
@@ -217,6 +219,7 @@ p {
 
 .container-p {
     display: flex;
+    flex-wrap: wrap;
     margin: 0 30px;
     max-width: 1600px;
     justify-content: center;
@@ -235,6 +238,7 @@ p {
     margin-bottom: 80px;
     width: 400px;
     margin: 0px 50px;
+    padding: 10px;
 }
 
 .project-title {
@@ -280,6 +284,7 @@ p {
     padding: 0 10%;
     padding-bottom: 80px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: baseline;
 }
